@@ -155,6 +155,24 @@ This project involves designing, simulating, and configuring various network top
   ![Ring Ping Test](RingTopologyImages/step4.PNG)
   ![Ring Ping Test](RingTopologyImages/step5.PNG)
   > All devices successfully communicated across the ring. Ping tests and web browsing functional between all PCs and server.
+  
+
+  ### 4. Mesh Topology
+
+- **Objective:** To simulate a mesh network where each switch connects to every other switch, providing multiple paths and redundancy.
+- **Devices Used:** 4 Switches (2960), 4 PCs, 1 Server, Copper Straight-Through cables.
+- **Screenshot:**
+  ![Mesh Topology Diagram](mesh-topology.png)
+- **IP Address Table:**
+  | Device  | IPv4 Address    | IPv6 Address | VLAN | Connected To |
+  |---------|-----------------|--------------|------|--------------|
+  | PC1     | 192.168.4.1     | FD00:4::1    | 20   | Switch1-Port Fa0/4 |
+  | PC2     | 192.168.4.2     | FD00:4::2    | 20   | Switch2-Port Fa0/4 |
+  | PC3     | DHCP (192.168.4.50) | DHCP     | 20   | Switch3-Port Fa0/4 |
+  | PC4     | DHCP (192.168.4.51) | DHCP     | 20   | Switch4-Port Fa0/4 |
+  | Server0 | 192.168.4.100   | FD00:4::100  | 30   | Switch1-Port Fa0/5 |
+
+- **Switch Mesh Connections:**
 
 *(Sections for Star, Ring, Mesh, Extended Star, and Hybrid will be placed here following the same format)*
 
