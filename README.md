@@ -88,6 +88,29 @@ This project involves designing, simulating, and configuring various network top
 
 ---
 
+### 2. Star Topology
+
+- **Objective:** To simulate a star network where all devices connect to a central switch.
+- **Devices Used:** 4 PCs, 1 Server, 1 Switch (2960), Copper Straight-Through cables.
+- **Screenshot:**
+  ![Star Topology](link-to-your-screenshot)
+- **IP Address Table:**
+  | Device  | IPv4 Address    | IPv6 Address | VLAN |
+  |---------|-----------------|--------------|------|
+  | PC0     | 192.168.2.1     | FD00:2::1    | 20   |
+  | PC1     | 192.168.2.2     | FD00:2::2    | 20   |
+  | PC2     | 192.168.2.3     | FD00:2::3    | 20   |
+  | PC3     | 192.168.2.4     | FD00:2::4    | 20   |
+  | PC4     | DHCP (192.168.2.50) | DHCP     | 20   |
+  | Server0 | 192.168.2.100   | FD00:2::100  | 30   |
+- **Configuration Notes:**
+  * All devices connected to a central switch using Copper Straight-Through cables.
+  * Server configured with DHCP, DNS, and HTTP services.
+  * Four PCs with static IPs, one PC with DHCP.
+- **Testing & Verification:**
+  ![Star Ping Test](link-to-ping-screenshot)
+  > Ping and web browsing tests successful from all PCs to server.
+
 *(Sections for Star, Ring, Mesh, Extended Star, and Hybrid will be placed here following the same format)*
 
 ---
