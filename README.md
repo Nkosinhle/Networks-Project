@@ -112,11 +112,11 @@ This project involves designing, simulating, and configuring various network top
 - **Testing & Verification:**
 
 - 
-  ![Star Ping Test](pingSuccess.PNG)
-  ![Star Ping Test](step1.PNG)
-  ![Star Ping Test](step2.PNG)
-  ![Star Ping Test](step3.PNG)
-  ![Star Ping Test](step4.PNG)
+  ![Star Ping Test](StarTopologyImagess/pingSuccess.PNG)
+  ![Star Ping Test](StarTopologyImagess/step1.PNG)
+  ![Star Ping Test](StarTopologyImagess/step2.PNG)
+  ![Star Ping Test](StarTopologyImagess/step3.PNG)
+  ![Star Ping Test](StarTopologyImagess/step4.PNG)
   
   > Ping and web browsing tests successful from all PCs to server.
 
