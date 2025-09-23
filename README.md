@@ -93,7 +93,7 @@ This project involves designing, simulating, and configuring various network top
 - **Objective:** To simulate a star network where all devices connect to a central switch.
 - **Devices Used:** 4 PCs, 1 Server, 1 Switch (2960), Copper Straight-Through cables.
 - **Screenshot:**
-  ![Star Topology](setup.PNG)
+  ![Star Topology](StarTopologyImagess/setup.PNG)
 - **IP Address Table:**
   | Device  | IPv4 Address    | IPv6 Address | VLAN |
   |---------|-----------------|--------------|------|
