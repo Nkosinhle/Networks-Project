@@ -162,7 +162,9 @@ This project involves designing, simulating, and configuring various network top
 - **Objective:** To simulate a mesh network where each switch connects to every other switch, providing multiple paths and redundancy.
 - **Devices Used:** 4 Switches (2960), 4 PCs, 1 Server, Copper Straight-Through cables.
 - **Screenshot:**
-  ![Mesh Topology Diagram](mesh-topology.png)
+
+- 
+  ![Mesh Topology Diagram](Mesh-Topology-Images/setup.PNG)
 - **IP Address Table:**
   | Device  | IPv4 Address    | IPv6 Address | VLAN | Connected To |
   |---------|-----------------|--------------|------|--------------|
@@ -173,6 +175,18 @@ This project involves designing, simulating, and configuring various network top
   | Server0 | 192.168.4.100   | FD00:4::100  | 30   | Switch1-Port Fa0/5 |
 
 - **Switch Mesh Connections:**
+
+- **Testing & Verification:**
+
+
+  ![Mesh Ping Test](Mesh-Topology-Images/pingSuccess.PNG)
+  ![Mesh Ping Test](Mesh-Topology-Imagess/webSuccess.PNG)
+  ![Mesh Ping Test](Mesh-Topology-Images/toPCStep1.PNG)
+  ![Mesh Ping Test](Mesh-Topology-Images/topcStep2.PNG)
+  ![Mesh Ping Test](Mesh-Topology-Images/toPcStep3.PNG)
+  ![Mesh Ping Test](Mesh-Topology-Images/topcStep4.PNG)
+  
+ 
 
 *(Sections for Star, Ring, Mesh, Extended Star, and Hybrid will be placed here following the same format)*
 
