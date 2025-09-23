@@ -126,7 +126,7 @@ This project involves designing, simulating, and configuring various network top
 - **Objective:** To simulate a ring network where switches are connected in a circular formation, creating a logical ring.
 - **Devices Used:** 4 Switches (2960), 4 PCs, 1 Server, Copper Straight-Through cables.
 - **Screenshot:**
-  ![Ring Topology Diagram](ring-topology.png)
+  ![Ring Topology Diagram](RingTopologyImages/ringSetup.PNG)
 - **IP Address Table:**
   | Device  | IPv4 Address    | IPv6 Address | VLAN | Connected To |
   |---------|-----------------|--------------|------|--------------|
@@ -145,8 +145,15 @@ This project involves designing, simulating, and configuring various network top
   * Server configured with DHCP, DNS, and HTTP services for the 192.168.3.0/24 network.
   * Mixed static and DHCP IP assignment for end devices.
 - **Testing & Verification:**
-  ![Ring Ping Test](ring-ping-test.png)
-  ![Ring Web Test](ring-web-test.png)
+
+
+  ![Ring Ping Test](RingTopologyImages/pingSuccess.PNG)
+  ![Ring Web Test](RingTopologyImages/suceessWebPageSearch.PNG)
+  ![Ring Ping Test](RingTopologyImages/step1.PNG)
+  ![Ring Ping Test](RingTopologyImages/step2.PNG)
+  ![Ring Ping Test](RingTopologyImages/step3.PNG)
+  ![Ring Ping Test](RingTopologyImages/step4.PNG)
+  ![Ring Ping Test](RingTopologyImages/step5.PNG)
   > All devices successfully communicated across the ring. Ping tests and web browsing functional between all PCs and server.
 
 *(Sections for Star, Ring, Mesh, Extended Star, and Hybrid will be placed here following the same format)*
