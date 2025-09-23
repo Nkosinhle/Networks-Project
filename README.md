@@ -119,6 +119,35 @@ This project involves designing, simulating, and configuring various network top
   ![Star Ping Test](StarTopologyImagess/step4.PNG)
   
   > Ping and web browsing tests successful from all PCs to server.
+  
+
+  ### 3. Ring Topology
+
+- **Objective:** To simulate a ring network where switches are connected in a circular formation, creating a logical ring.
+- **Devices Used:** 4 Switches (2960), 4 PCs, 1 Server, Copper Straight-Through cables.
+- **Screenshot:**
+  ![Ring Topology Diagram](ring-topology.png)
+- **IP Address Table:**
+  | Device  | IPv4 Address    | IPv6 Address | VLAN | Connected To |
+  |---------|-----------------|--------------|------|--------------|
+  | PC1     | 192.168.3.1     | FD00:3::1    | 20   | Switch1      |
+  | PC2     | 192.168.3.2     | FD00:3::2    | 20   | Switch2      |
+  | PC3     | DHCP (192.168.3.50) | DHCP     | 20   | Switch3      |
+  | PC4     | DHCP (192.168.3.51) | DHCP     | 20   | Switch3      |
+  | Server0 | 192.168.3.100   | FD00:3::100  | 30   | Switch4      |
+- **Switch Connections:**
+  - Switch1: Port Fa0/1 → Switch2-Fa0/1, Port Fa0/2 → Switch4-Fa0/2
+  - Switch2: Port Fa0/2 → Switch3-Fa0/1
+  - Switch3: Port Fa0/2 → Switch4-Fa0/1
+- **Configuration Notes:**
+  * Four switches connected in a ring formation using Copper Straight-Through cables.
+  * Spanning Tree Protocol (STP) automatically activated to prevent network loops.
+  * Server configured with DHCP, DNS, and HTTP services for the 192.168.3.0/24 network.
+  * Mixed static and DHCP IP assignment for end devices.
+- **Testing & Verification:**
+  ![Ring Ping Test](ring-ping-test.png)
+  ![Ring Web Test](ring-web-test.png)
+  > All devices successfully communicated across the ring. Ping tests and web browsing functional between all PCs and server.
 
 *(Sections for Star, Ring, Mesh, Extended Star, and Hybrid will be placed here following the same format)*
 
