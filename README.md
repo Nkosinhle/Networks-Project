@@ -194,7 +194,7 @@ This project involves designing, simulating, and configuring various network top
 - **Objective:** To simulate a hierarchical star network with core, distribution, and access layers, demonstrating enterprise-level network design.
 - **Devices Used:** 10 Switches (1 Core, 3 Distribution, 6 Access), 12 PCs, 1 Server, Copper Straight-Through cables.
 - **Screenshot:**
-  ![Extended Star Topology Diagram](extended-star-topology.png)
+  ![Extended Star Topology Diagram](extendedStar-Images/setup.PNG)
 - **IP Address Table (Selected Devices):**
   | Device  | IPv4 Address    | IPv6 Address | VLAN | Hierarchical Path |
   |---------|-----------------|--------------|------|-------------------|
@@ -204,6 +204,17 @@ This project involves designing, simulating, and configuring various network top
   | Server0 | 192.168.5.100   | FD00:5::100  | 30   | Core-Switch |
 
 - **Hierarchical Structure:**
+
+- **Testing & Verification:**
+
+![Extended Star Topology Diagram](extendedStar-Images/pingSuccess.PNG)
+![Extended Star Topology Diagram](extendedStar-Images/webSuccess.PNG)
+![Extended Star Topology Diagram](extendedStar-Images/ipConfigure.PNG)
+![Extended Star Topology Diagram](extendedStar-Images/step1.PNG)
+![Extended Star Topology Diagram](extendedStar-Images/step2.PNG)
+![Extended Star Topology Diagram](extendedStar-Images/step3.PNG)
+![Extended Star Topology Diagram](extendedStar-Images/step4.PNG)
+![Extended Star Topology Diagram](extendedStar-Images/step5.PNG)
 *(Sections for Star, Ring, Mesh, Extended Star, and Hybrid will be placed here following the same format)*
 
 ---
