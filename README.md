@@ -185,9 +185,25 @@ This project involves designing, simulating, and configuring various network top
   ![Mesh Ping Test](Mesh-Topology-Images/topcStep2.PNG)
   ![Mesh Ping Test](Mesh-Topology-Images/toPcStep3.PNG)
   ![Mesh Ping Test](Mesh-Topology-Images/topcStep4.PNG)
+
+
   
  
+### 5. Extended Star Topology
 
+- **Objective:** To simulate a hierarchical star network with core, distribution, and access layers, demonstrating enterprise-level network design.
+- **Devices Used:** 10 Switches (1 Core, 3 Distribution, 6 Access), 12 PCs, 1 Server, Copper Straight-Through cables.
+- **Screenshot:**
+  ![Extended Star Topology Diagram](extended-star-topology.png)
+- **IP Address Table (Selected Devices):**
+  | Device  | IPv4 Address    | IPv6 Address | VLAN | Hierarchical Path |
+  |---------|-----------------|--------------|------|-------------------|
+  | PC1     | 192.168.5.1     | FD00:5::1    | 20   | Acc-Switch1 → Dist-Switch1 → Core |
+  | PC2     | DHCP (192.168.5.50) | DHCP     | 20   | Acc-Switch1 → Dist-Switch1 → Core |
+  | PC12    | DHCP (192.168.5.55) | DHCP     | 20   | Acc-Switch6 → Dist-Switch3 → Core |
+  | Server0 | 192.168.5.100   | FD00:5::100  | 30   | Core-Switch |
+
+- **Hierarchical Structure:**
 *(Sections for Star, Ring, Mesh, Extended Star, and Hybrid will be placed here following the same format)*
 
 ---
