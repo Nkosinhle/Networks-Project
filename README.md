@@ -64,12 +64,11 @@ This project involves designing, simulating, and configuring various network top
 ## Topology Documentation
 
 ### 1. Bus Topology
-*(This section is your first task. We will fill it in as you build.)*
 
 -   **Objective:** To simulate a linear bus network where all devices share a single communication line.
 -   **Devices Used:** 4 PCs, 1 Server, Coaxial cables, 2 Terminators.
 -   **Screenshot:**
-    *(You will add a screenshot of your topology here later)*
+    ![Bus Topology](BusTopology/setup.PNG)
 -   **IP Address Table:**
     | Device | IPv4 Address | IPv6 Address | VLAN |
     |--------|--------------|--------------|------|
@@ -82,9 +81,29 @@ This project involves designing, simulating, and configuring various network top
     *   Terminators are placed at both ends of the bus.
     *   The server has DNS, DHCP, and HTTP services enabled.
 -   **Testing & Verification:**
-    *(You will add a screenshot of a successful ping from PC0 to Server0 here later)*
-    > `ping 192.168.1.100` ... Successful!
-    > `ping FD00:1::100` ... Successful!
+
+>   `ping 192.168.1.100` ... Successful!
+    ![Bus Topology Ping Test](BusTopology/pingSuccess.PNG)
+>
+>   **PC pings Server:**
+    ![Bus Topology Ping Test](BusTopology/server1.PNG)
+    ![Bus Topology Ping Test](BusTopology/server2.PNG)
+    ![Bus Topology Ping Test](BusTopology/server3.PNG)
+>
+--     **Web page successful search:**
+    ![Bus Topology Ping Test](BusTopology/webPageSuccess.PNG)
+
+>
+>   **PC pings PC:**
+    ![Bus Topology Ping Test](BusTopology/step1.PNG)
+    ![Bus Topology Ping Test](BusTopology/step2.PNG)
+    ![Bus Topology Ping Test](BusTopology/step3.PNG)
+    ![Bus Topology Ping Test](BusTopology/step4.PNG)
+    ![Bus Topology Ping Test](BusTopology/step5.PNG)
+    
+
+    
+    
 
 ---
 
@@ -113,6 +132,8 @@ This project involves designing, simulating, and configuring various network top
 
 - 
   ![Star Ping Test](StarTopologyImagess/pingSuccess.PNG)
+
+   **PC pings PC:**
   ![Star Ping Test](StarTopologyImagess/step1.PNG)
   ![Star Ping Test](StarTopologyImagess/step2.PNG)
   ![Star Ping Test](StarTopologyImagess/step3.PNG)
@@ -148,7 +169,11 @@ This project involves designing, simulating, and configuring various network top
 
 
   ![Ring Ping Test](RingTopologyImages/pingSuccess.PNG)
+
+   **Web Search:**
   ![Ring Web Test](RingTopologyImages/suceessWebPageSearch.PNG)
+
+   **PC pings PC:**
   ![Ring Ping Test](RingTopologyImages/step1.PNG)
   ![Ring Ping Test](RingTopologyImages/step2.PNG)
   ![Ring Ping Test](RingTopologyImages/step3.PNG)
