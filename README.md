@@ -256,7 +256,7 @@ Configure and test IPv6 firewall rules to secure network traffic while maintaini
 - **Configuration Type:** IPv6 Access Control List (ACL)
 - **Interface Used:** `GigabitEthernet0/1`
 
-- ![IPv6 Firewall Setup](ipv6-firewall-acl.png)
+- ![IPv6 Firewall Setup](Part2Images/setup.png)
 
 ---
 # IPv6 Firewall Rules
