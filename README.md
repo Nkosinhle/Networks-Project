@@ -272,9 +272,11 @@ Configure and test IPv6 firewall rules to secure network traffic while maintaini
 
 
 ### Configuration Screenshots
-![IPv6 Firewall ACL](ipv6-firewall-acl.png)
-![Firewall Topology](firewall-topology.png)
-![Firewall Test Results](firewall-tests.png)
+![IPv6 Firewall Setup](Part2Images/enableIpv6Router.png)
+![IPv6 Firewall Setup](Part2Images/ipv6PC.png)
+![IPv6 Firewall Setup](Part2Images/pingPCtoRouterSuccess.png)
+![IPv6 Firewall Setup](Part2Images/applyFirewall.png)
+![IPv6 Firewall Setup](Part2Images/noPingDueToFirewall.png)
 
 
 ## Video Demonstration
