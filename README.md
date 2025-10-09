@@ -249,12 +249,17 @@ This project involves designing, simulating, and configuring various network top
 ### Objective
 Configure and test IPv6 firewall rules to secure network traffic while maintaining essential services.
 
-### Implementation
-- **Topology Used:** Modified Star Topology with firewall router
-- **Firewall Device:** Cisco ISR 4321 Router
-- **Configuration:** IPv6 Access Control Lists (ACLs)
+## 🖥️ Implementation
 
-### IPv6 Firewall Rules
+- **Topology Used:** Simple network with one router and one PC (Modified Star Topology)
+- **Firewall Device:** Cisco ISR 4321 Router (Packet Tracer)
+- **Configuration Type:** IPv6 Access Control List (ACL)
+- **Interface Used:** `GigabitEthernet0/1`
+
+- ![IPv6 Firewall Setup](ipv6-firewall-acl.png)
+
+---
+# IPv6 Firewall Rules
 | Rule | Action | Protocol | Source | Destination | Port | Purpose |
 |------|--------|----------|--------|-------------|------|---------|
 | 1 | Permit | TCP | Any | Server | 80 | Allow HTTP web traffic |
@@ -265,23 +270,12 @@ Configure and test IPv6 firewall rules to secure network traffic while maintaini
 | 6 | Deny | TCP | Any | Any | 22 | Block SSH |
 | 7 | Permit | IPv6 | Any | Any | - | Allow all other traffic |
 
-### Testing Results
-- ✅ **HTTP Access:** Successful web browsing to server
-- ✅ **DNS Resolution:** Successful domain name resolution
-- ✅ **ICMP:** Successful ping tests
-- ✅ **Security:** Blocked services confirmed denied
-- ✅ **Logging:** Firewall activity logging enabled
 
 ### Configuration Screenshots
 ![IPv6 Firewall ACL](ipv6-firewall-acl.png)
 ![Firewall Topology](firewall-topology.png)
 ![Firewall Test Results](firewall-tests.png)
 
-### Key Learnings
-- IPv6 ACL syntax and application
-- Balancing security with functionality
-- Firewall placement in network architecture
-- Testing methodology for security rules
 
 ## Video Demonstration
 *(This section will be filled in during Part III)*
