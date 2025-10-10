@@ -52,7 +52,7 @@ All topologies tested with **ping** and **web browsing** to verify connectivity.
 
 ---
 
-## 🔒 IPv6 Firewall
+## 🔒 Part 2: Configure firewall rules to secure IPv6 traffic
 - **Device:** Cisco ISR 4321 Router  
 - **Interface:** GigabitEthernet0/1  
 - **Rules:**  
