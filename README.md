@@ -165,7 +165,9 @@ All topologies tested with **ping** and **web browsing** to verify connectivity.
 ---
 
 ## 🎥 Video Demonstration
-Shows full functionality of all topologies, ping tests, and firewall verification.  
+Shows full functionality of all topologies, ping tests, and firewall verification.
+
+▶️ Watch Project Demonstration (44665032_CMPG325_Project.mp4)
 
 ---
 
