@@ -9,6 +9,15 @@
 ## 📖 Overview
 Final year project simulating and configuring multiple network topologies using **Cisco Packet Tracer**.  
 
+## 🔒 Part 1: Network Topologies Design & Simulation uaing Cicso Packet Tracer
+## 🌐 Topologies
+- 🚌 **Bus:** Linear network  
+- ⭐ **Star:** Centralized switch  
+- 🔄 **Ring:** Circular switch formation with STP  
+- 🕸️ **Mesh:** Full redundancy between switches  
+- 🌟 **Extended Star:** Hierarchical core, distribution, access layers  
+- ⚡ **Hybrid:** Combines features for scalability and redundancy 
+
 ✅ Features:  
 - 🚌 Bus Topology
 - **IP Address Table:**
@@ -71,6 +80,8 @@ Final year project simulating and configuring multiple network topologies using 
 * Spanning Tree Protocol (STP) automatically manages potential loops.
 * Server configured with DHCP, DNS, and HTTP services for 192.168.4.0/24 network.
 * Mixed static and DHCP IP assignment demonstrating flexibility.
+
+* 
 - 🌟 Extended Star Topology
 - **IP Address Table (Selected Devices):**
   | Device  | IPv4 Address    | IPv6 Address | VLAN | Hierarchical Path |
@@ -85,9 +96,6 @@ Final year project simulating and configuring multiple network topologies using 
 * Mixed static and DHCP IP assignment across 12 end devices
 * Server placed at core layer for centralized access
 * VLAN segmentation configured for management, users, and servers
-- ⚡ Hybrid Topology combining multiple designs  
-- 🔒 IPv6 Firewall configuration  
-- 🎥 Video demonstration of network functionality  
 
 ---
 
@@ -119,21 +127,9 @@ Final year project simulating and configuring multiple network topologies using 
 - VLAN 20 = 👥 USERS  
 - VLAN 30 = 💻 SERVERS  
 
-**IPv6 Example:**  
-- Bus: FD00:0001::/64, Server: FD00:0001::100  
-- Star: FD00:0002::/64, Server: FD00:0002::100  
 
-*(Other topologies follow the same addressing scheme.)*  
 
----
-
-## 🌐 Topologies
-- 🚌 **Bus:** Linear network  
-- ⭐ **Star:** Centralized switch  
-- 🔄 **Ring:** Circular switch formation with STP  
-- 🕸️ **Mesh:** Full redundancy between switches  
-- 🌟 **Extended Star:** Hierarchical core, distribution, access layers  
-- ⚡ **Hybrid:** Combines features for scalability and redundancy  
+--- 
 
 All topologies tested with **ping** and **web browsing** to verify connectivity. ✅ 
 
