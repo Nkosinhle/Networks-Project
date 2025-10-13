@@ -53,7 +53,8 @@ All topologies tested with **ping** and **web browsing** to verify connectivity.
 ---
 
 ## 🔒 Part 2: Configure firewall rules to secure IPv6 traffic
-- **Device:** Cisco ISR 4321 Router  
+- **Using the Star Topology**
+- **Device:** Cisco 2881 Router  
 - **Interface:** GigabitEthernet0/1  
 - **Rules:**  
   - ✅ Permit HTTP (80), DNS (53), ICMP  
