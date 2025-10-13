@@ -97,6 +97,24 @@ Final year project simulating and configuring multiple network topologies using 
 * Server placed at core layer for centralized access
 * VLAN segmentation configured for management, users, and servers
 
+🌐 Hybrid Topology — IP Addressing Table
+Device	Interface	IPv4 Address	Subnet Mask	IPv6 Address	VLAN / Network	Description
+Router (2811)	Fa0/0.10	192.168.10.1	255.255.255.0	2001:DB8:10::1/64	VLAN 10	LAN_A Gateway
+	Fa0/0.20	192.168.20.1	255.255.255.0	2001:DB8:20::1/64	VLAN 20	Wi-Fi Gateway
+	Fa0/0.30	192.168.30.1	255.255.255.0	2001:DB8:30::1/64	VLAN 30	Server Gateway
+	Fa0/1	10.0.0.1	255.255.255.252	2001:DB8:A::1/64	WAN Link	Connection to ISP Router
+ISP Router (1841)	Fa0/0	10.0.0.2	255.255.255.252	2001:DB8:A::2/64	WAN Link	Simulated Cloud Connection
+Switch – SW-Core	VLAN 1	192.168.10.2	255.255.255.0	—	VLAN 10	Core Switch for Inter-VLAN Routing
+Switch – SW-A	—	—	—	—	VLAN 10	LAN_A Access Switch
+Switch – SW-B	—	—	—	—	VLAN 20	Wi-Fi Access Switch
+Server	NIC	192.168.30.10	255.255.255.0	2001:DB8:30::10/64	VLAN 30	Web / DNS / FTP Server
+PC1	NIC	192.168.10.10	255.255.255.0	2001:DB8:10::10/64	VLAN 10	LAN_A PC
+PC2	NIC	192.168.10.11	255.255.255.0	2001:DB8:10::11/64	VLAN 10	LAN_A PC
+Laptop (Wi-Fi)	Wireless NIC	192.168.20.10	255.255.255.0	2001:DB8:20::10/64	VLAN 20	Wireless PC
+WRT300N (Wi-Fi Router)	LAN	192.168.20.254	255.255.255.0	2001:DB8:20::254/64	VLAN 20	Wireless Router
+	WAN	DHCP / 192.168.20.1	255.255.255.0	—	VLAN 20	Connected to Main Router
+Firewall (IPv6 ACL)	Applied on Router Fa0/1	—	—	—	—	IPv6 Traffic Control
+
 ---
 
 ## IP Addressing Scheme
